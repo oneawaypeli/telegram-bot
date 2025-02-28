@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 
-
 TOKEN = 7803925257:AAGLxHgAPHJYgQLcGsYgsDpl_gvT-QavGmI
+TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
 
 async def start(update: Update, context):
     await update.message.reply_text("Hei! Olen Telegram-botti. Kuinka voin auttaa?")
